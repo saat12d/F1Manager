@@ -1,0 +1,20 @@
+{
+  "name": "f1-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend for F1 Manager Simulation Game",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2",
+    "nodemon": "^3.0.2"
+  }
+}
