@@ -1,0 +1,382 @@
+[
+  {
+    "id": "verstappen",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "nationality": "Dutch",
+    "teamId": "red-bull",
+    "rating": 97,
+    "age": 27,
+    "number": 1,
+    "championships": [2021, 2022, 2023],
+    "careerStats": {
+      "races": 182,
+      "wins": 56,
+      "podiums": 95,
+      "poles": 38,
+      "fastestLaps": 30,
+      "points": 2587.5
+    }
+  },
+  {
+    "id": "perez",
+    "firstName": "Sergio",
+    "lastName": "Pérez",
+    "nationality": "Mexican",
+    "teamId": "red-bull",
+    "rating": 85,
+    "age": 34,
+    "number": 11,
+    "championships": [],
+    "careerStats": {
+      "races": 268,
+      "wins": 6,
+      "podiums": 39,
+      "poles": 3,
+      "fastestLaps": 9,
+      "points": 1394
+    }
+  },
+  {
+    "id": "hamilton",
+    "firstName": "Lewis",
+    "lastName": "Hamilton",
+    "nationality": "British",
+    "teamId": "mercedes",
+    "rating": 94,
+    "age": 40,
+    "number": 44,
+    "championships": [2008, 2014, 2015, 2017, 2018, 2019, 2020],
+    "careerStats": {
+      "races": 344,
+      "wins": 103,
+      "podiums": 197,
+      "poles": 104,
+      "fastestLaps": 67,
+      "points": 4405.5
+    }
+  },
+  {
+    "id": "russell",
+    "firstName": "George",
+    "lastName": "Russell",
+    "nationality": "British",
+    "teamId": "mercedes",
+    "rating": 86,
+    "age": 26,
+    "number": 63,
+    "championships": [],
+    "careerStats": {
+      "races": 115,
+      "wins": 1,
+      "podiums": 12,
+      "poles": 3,
+      "fastestLaps": 7,
+      "points": 376
+    }
+  },
+  {
+    "id": "leclerc",
+    "firstName": "Charles",
+    "lastName": "Leclerc",
+    "nationality": "Monégasque",
+    "teamId": "ferrari",
+    "rating": 92,
+    "age": 27,
+    "number": 16,
+    "championships": [],
+    "careerStats": {
+      "races": 137,
+      "wins": 5,
+      "podiums": 26,
+      "poles": 24,
+      "fastestLaps": 9,
+      "points": 1004
+    }
+  },
+  {
+    "id": "sainz",
+    "firstName": "Carlos",
+    "lastName": "Sainz Jr.",
+    "nationality": "Spanish",
+    "teamId": "ferrari",
+    "rating": 87,
+    "age": 30,
+    "number": 55,
+    "championships": [],
+    "careerStats": {
+      "races": 198,
+      "wins": 3,
+      "podiums": 23,
+      "poles": 6,
+      "fastestLaps": 3,
+      "points": 1046.5
+    }
+  },
+  {
+    "id": "norris",
+    "firstName": "Lando",
+    "lastName": "Norris",
+    "nationality": "British",
+    "teamId": "mclaren",
+    "rating": 89,
+    "age": 25,
+    "number": 4,
+    "championships": [],
+    "careerStats": {
+      "races": 118,
+      "wins": 1,
+      "podiums": 14,
+      "poles": 1,
+      "fastestLaps": 6,
+      "points": 570
+    }
+  },
+  {
+    "id": "piastri",
+    "firstName": "Oscar",
+    "lastName": "Piastri",
+    "nationality": "Australian",
+    "teamId": "mclaren",
+    "rating": 82,
+    "age": 23,
+    "number": 81,
+    "championships": [],
+    "careerStats": {
+      "races": 44,
+      "wins": 2,
+      "podiums": 7,
+      "poles": 0,
+      "fastestLaps": 1,
+      "points": 197
+    }
+  },
+  {
+    "id": "alonso",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "nationality": "Spanish",
+    "teamId": "aston-martin",
+    "rating": 93,
+    "age": 43,
+    "number": 14,
+    "championships": [2005, 2006],
+    "careerStats": {
+      "races": 398,
+      "wins": 32,
+      "podiums": 106,
+      "poles": 22,
+      "fastestLaps": 23,
+      "points": 2196
+    }
+  },
+  {
+    "id": "stroll",
+    "firstName": "Lance",
+    "lastName": "Stroll",
+    "nationality": "Canadian",
+    "teamId": "aston-martin",
+    "rating": 76,
+    "age": 26,
+    "number": 18,
+    "championships": [],
+    "careerStats": {
+      "races": 158,
+      "wins": 0,
+      "podiums": 3,
+      "poles": 1,
+      "fastestLaps": 0,
+      "points": 274
+    }
+  },
+  {
+    "id": "gasly",
+    "firstName": "Pierre",
+    "lastName": "Gasly",
+    "nationality": "French",
+    "teamId": "alpine",
+    "rating": 81,
+    "age": 28,
+    "number": 10,
+    "championships": [],
+    "careerStats": {
+      "races": 148,
+      "wins": 1,
+      "podiums": 4,
+      "poles": 0,
+      "fastestLaps": 3,
+      "points": 393
+    }
+  },
+  {
+    "id": "ocon",
+    "firstName": "Esteban",
+    "lastName": "Ocon",
+    "nationality": "French",
+    "teamId": "alpine",
+    "rating": 80,
+    "age": 28,
+    "number": 31,
+    "championships": [],
+    "careerStats": {
+      "races": 146,
+      "wins": 1,
+      "podiums": 3,
+      "poles": 0,
+      "fastestLaps": 0,
+      "points": 424
+    }
+  },
+  {
+    "id": "albon",
+    "firstName": "Alexander",
+    "lastName": "Albon",
+    "nationality": "Thai",
+    "teamId": "williams",
+    "rating": 79,
+    "age": 28,
+    "number": 23,
+    "championships": [],
+    "careerStats": {
+      "races": 93,
+      "wins": 0,
+      "podiums": 2,
+      "poles": 0,
+      "fastestLaps": 1,
+      "points": 214
+    }
+  },
+  {
+    "id": "sargeant",
+    "firstName": "Logan",
+    "lastName": "Sargeant",
+    "nationality": "American",
+    "teamId": "williams",
+    "rating": 70,
+    "age": 24,
+    "number": 2,
+    "championships": [],
+    "careerStats": {
+      "races": 36,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0,
+      "fastestLaps": 0,
+      "points": 1
+    }
+  },
+  {
+    "id": "tsunoda",
+    "firstName": "Yuki",
+    "lastName": "Tsunoda",
+    "nationality": "Japanese",
+    "teamId": "alpha-tauri",
+    "rating": 78,
+    "age": 24,
+    "number": 22,
+    "championships": [],
+    "careerStats": {
+      "races": 84,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0,
+      "fastestLaps": 0,
+      "points": 64
+    }
+  },
+  {
+    "id": "ricciardo",
+    "firstName": "Daniel",
+    "lastName": "Ricciardo",
+    "nationality": "Australian",
+    "teamId": "alpha-tauri",
+    "rating": 84,
+    "age": 35,
+    "number": 3,
+    "championships": [],
+    "careerStats": {
+      "races": 257,
+      "wins": 8,
+      "podiums": 32,
+      "poles": 3,
+      "fastestLaps": 16,
+      "points": 1329
+    }
+  },
+  {
+    "id": "magnussen",
+    "firstName": "Kevin",
+    "lastName": "Magnussen",
+    "nationality": "Danish",
+    "teamId": "haas",
+    "rating": 77,
+    "age": 32,
+    "number": 20,
+    "championships": [],
+    "careerStats": {
+      "races": 175,
+      "wins": 0,
+      "podiums": 1,
+      "poles": 1,
+      "fastestLaps": 1,
+      "points": 185
+    }
+  },
+  {
+    "id": "hulkenberg",
+    "firstName": "Nico",
+    "lastName": "Hülkenberg",
+    "nationality": "German",
+    "teamId": "haas",
+    "rating": 83,
+    "age": 37,
+    "number": 27,
+    "championships": [],
+    "careerStats": {
+      "races": 220,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 1,
+      "fastestLaps": 2,
+      "points": 542
+    }
+  },
+  {
+    "id": "bottas",
+    "firstName": "Valtteri",
+    "lastName": "Bottas",
+    "nationality": "Finnish",
+    "teamId": "kick-sauber",
+    "rating": 85,
+    "age": 35,
+    "number": 77,
+    "championships": [],
+    "careerStats": {
+      "races": 230,
+      "wins": 10,
+      "podiums": 67,
+      "poles": 20,
+      "fastestLaps": 19,
+      "points": 1797
+    }
+  },
+  {
+    "id": "zhou",
+    "firstName": "Zhou",
+    "lastName": "Guanyu",
+    "nationality": "Chinese",
+    "teamId": "kick-sauber",
+    "rating": 74,
+    "age": 25,
+    "number": 24,
+    "championships": [],
+    "careerStats": {
+      "races": 66,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0,
+      "fastestLaps": 0,
+      "points": 12
+    }
+  }
+] 

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "bahrain-2024",
+    "name": "Bahrain Grand Prix",
+    "round": 1,
+    "date": "2024-03-02",
+    "circuit": {
+      "id": "bahrain",
+      "name": "Bahrain International Circuit",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "laps": 57,
+      "length": 5.412
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "saudi-arabia-2024",
+    "name": "Saudi Arabian Grand Prix",
+    "round": 2,
+    "date": "2024-03-09",
+    "circuit": {
+      "id": "jeddah",
+      "name": "Jeddah Corniche Circuit",
+      "location": "Jeddah",
+      "country": "Saudi Arabia",
+      "laps": 50,
+      "length": 6.174
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "australia-2024",
+    "name": "Australian Grand Prix",
+    "round": 3,
+    "date": "2024-03-24",
+    "circuit": {
+      "id": "melbourne",
+      "name": "Albert Park Circuit",
+      "location": "Melbourne",
+      "country": "Australia",
+      "laps": 58,
+      "length": 5.278
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "japan-2024",
+    "name": "Japanese Grand Prix",
+    "round": 4,
+    "date": "2024-04-07",
+    "circuit": {
+      "id": "suzuka",
+      "name": "Suzuka International Racing Course",
+      "location": "Suzuka",
+      "country": "Japan",
+      "laps": 53,
+      "length": 5.807
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "china-2024",
+    "name": "Chinese Grand Prix",
+    "round": 5,
+    "date": "2024-04-21",
+    "circuit": {
+      "id": "shanghai",
+      "name": "Shanghai International Circuit",
+      "location": "Shanghai",
+      "country": "China",
+      "laps": 56,
+      "length": 5.451
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "miami-2024",
+    "name": "Miami Grand Prix",
+    "round": 6,
+    "date": "2024-05-05",
+    "circuit": {
+      "id": "miami",
+      "name": "Miami International Autodrome",
+      "location": "Miami Gardens",
+      "country": "United States",
+      "laps": 57,
+      "length": 5.412
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "emilia-romagna-2024",
+    "name": "Emilia Romagna Grand Prix",
+    "round": 7,
+    "date": "2024-05-19",
+    "circuit": {
+      "id": "imola",
+      "name": "Autodromo Enzo e Dino Ferrari",
+      "location": "Imola",
+      "country": "Italy",
+      "laps": 63,
+      "length": 4.909
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "monaco-2024",
+    "name": "Monaco Grand Prix",
+    "round": 8,
+    "date": "2024-05-26",
+    "circuit": {
+      "id": "monaco",
+      "name": "Circuit de Monaco",
+      "location": "Monte Carlo",
+      "country": "Monaco",
+      "laps": 78,
+      "length": 3.337
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "canada-2024",
+    "name": "Canadian Grand Prix",
+    "round": 9,
+    "date": "2024-06-09",
+    "circuit": {
+      "id": "montreal",
+      "name": "Circuit Gilles Villeneuve",
+      "location": "Montreal",
+      "country": "Canada",
+      "laps": 70,
+      "length": 4.361
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "spain-2024",
+    "name": "Spanish Grand Prix",
+    "round": 10,
+    "date": "2024-06-23",
+    "circuit": {
+      "id": "barcelona",
+      "name": "Circuit de Barcelona-Catalunya",
+      "location": "Montmeló",
+      "country": "Spain",
+      "laps": 66,
+      "length": 4.675
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "austria-2024",
+    "name": "Austrian Grand Prix",
+    "round": 11,
+    "date": "2024-06-30",
+    "circuit": {
+      "id": "spielberg",
+      "name": "Red Bull Ring",
+      "location": "Spielberg",
+      "country": "Austria",
+      "laps": 71,
+      "length": 4.318
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "great-britain-2024",
+    "name": "British Grand Prix",
+    "round": 12,
+    "date": "2024-07-07",
+    "circuit": {
+      "id": "silverstone",
+      "name": "Silverstone Circuit",
+      "location": "Silverstone",
+      "country": "United Kingdom",
+      "laps": 52,
+      "length": 5.891
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "hungary-2024",
+    "name": "Hungarian Grand Prix",
+    "round": 13,
+    "date": "2024-07-21",
+    "circuit": {
+      "id": "hungaroring",
+      "name": "Hungaroring",
+      "location": "Budapest",
+      "country": "Hungary",
+      "laps": 70,
+      "length": 4.381
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "belgium-2024",
+    "name": "Belgian Grand Prix",
+    "round": 14,
+    "date": "2024-07-28",
+    "circuit": {
+      "id": "spa",
+      "name": "Circuit de Spa-Francorchamps",
+      "location": "Stavelot",
+      "country": "Belgium",
+      "laps": 44,
+      "length": 7.004
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "netherlands-2024",
+    "name": "Dutch Grand Prix",
+    "round": 15,
+    "date": "2024-08-25",
+    "circuit": {
+      "id": "zandvoort",
+      "name": "Circuit Zandvoort",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "laps": 72,
+      "length": 4.259
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "italy-2024",
+    "name": "Italian Grand Prix",
+    "round": 16,
+    "date": "2024-09-01",
+    "circuit": {
+      "id": "monza",
+      "name": "Autodromo Nazionale di Monza",
+      "location": "Monza",
+      "country": "Italy",
+      "laps": 53,
+      "length": 5.793
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "azerbaijan-2024",
+    "name": "Azerbaijan Grand Prix",
+    "round": 17,
+    "date": "2024-09-15",
+    "circuit": {
+      "id": "baku",
+      "name": "Baku City Circuit",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "laps": 51,
+      "length": 6.003
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "singapore-2024",
+    "name": "Singapore Grand Prix",
+    "round": 18,
+    "date": "2024-09-22",
+    "circuit": {
+      "id": "singapore",
+      "name": "Marina Bay Street Circuit",
+      "location": "Singapore",
+      "country": "Singapore",
+      "laps": 61,
+      "length": 5.063
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "united-states-2024",
+    "name": "United States Grand Prix",
+    "round": 19,
+    "date": "2024-10-20",
+    "circuit": {
+      "id": "austin",
+      "name": "Circuit of the Americas",
+      "location": "Austin",
+      "country": "United States",
+      "laps": 56,
+      "length": 5.513
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "mexico-2024",
+    "name": "Mexican Grand Prix",
+    "round": 20,
+    "date": "2024-10-27",
+    "circuit": {
+      "id": "mexico",
+      "name": "Autódromo Hermanos Rodríguez",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "laps": 71,
+      "length": 4.304
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "brazil-2024",
+    "name": "Brazilian Grand Prix",
+    "round": 21,
+    "date": "2024-11-03",
+    "circuit": {
+      "id": "interlagos",
+      "name": "Autódromo José Carlos Pace",
+      "location": "São Paulo",
+      "country": "Brazil",
+      "laps": 71,
+      "length": 4.309
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "las-vegas-2024",
+    "name": "Las Vegas Grand Prix",
+    "round": 22,
+    "date": "2024-11-23",
+    "circuit": {
+      "id": "las-vegas",
+      "name": "Las Vegas Strip Circuit",
+      "location": "Las Vegas",
+      "country": "United States",
+      "laps": 50,
+      "length": 6.201
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "qatar-2024",
+    "name": "Qatar Grand Prix",
+    "round": 23,
+    "date": "2024-12-01",
+    "circuit": {
+      "id": "losail",
+      "name": "Losail International Circuit",
+      "location": "Al Daayen",
+      "country": "Qatar",
+      "laps": 57,
+      "length": 5.419
+    },
+    "season": 2024,
+    "status": "upcoming"
+  },
+  {
+    "id": "abu-dhabi-2024",
+    "name": "Abu Dhabi Grand Prix",
+    "round": 24,
+    "date": "2024-12-08",
+    "circuit": {
+      "id": "yas-marina",
+      "name": "Yas Marina Circuit",
+      "location": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "laps": 58,
+      "length": 5.281
+    },
+    "season": 2024,
+    "status": "upcoming"
+  }
+] 
