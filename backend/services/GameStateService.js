@@ -8,7 +8,7 @@ class GameStateService {
       selectedTeam: null,
       season: 2024,
       currentRound: 1,
-      standings: new Standings(2024),
+      standings: new Standings(2024, true),
       objectives: null,
       gameStartDate: null
     };
@@ -26,12 +26,13 @@ class GameStateService {
       selectedTeam: selectedTeamId,
       season: 2024,
       currentRound: 1,
-      standings: new Standings(2024),
+      standings: new Standings(2024, true),
       objectives: this.generateSeasonObjectives(team),
       gameStartDate: new Date().toISOString()
     };
 
     console.log(`🎮 Game initialized with ${team.name}`);
+    console.log(`📊 Standings initialized with ${this.gameState.standings.driverStandings.length} drivers`);
     return this.getGameState();
   }
 
@@ -364,7 +365,7 @@ class GameStateService {
       selectedTeam: null,
       season: 2024,
       currentRound: 1,
-      standings: new Standings(2024),
+      standings: new Standings(2024, true),
       objectives: null,
       gameStartDate: null
     };

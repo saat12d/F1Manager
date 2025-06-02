@@ -1,0 +1,369 @@
+@import "tailwindcss";
+
+/* Custom F1-themed CSS Variables */
+:root {
+  --red-bull: #3671C6;
+  --mercedes: #00D2BE;
+  --ferrari: #DC143C;
+  --mclaren: #FF8700;
+  --aston-martin: #006F62;
+  --alpine: #0093CC;
+  --williams: #005AFF;
+  --rb: #6692FF;
+  --haas: #FFFFFF;
+  --kick-sauber: #52E252;
+}
+
+/* Import Google Fonts for futuristic feel */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #3671C6, #00D2BE);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #2856a3, #00a399);
+}
+
+/* Performance-optimized hover effects for team cards */
+.team-card {
+  will-change: transform, box-shadow;
+  transform: translateZ(0); /* Force GPU acceleration */
+  backface-visibility: hidden; /* Prevent flickering */
+  transition: transform 0.2s cubic-bezier(0.4, 0.0, 0.2, 1), 
+              box-shadow 0.2s cubic-bezier(0.4, 0.0, 0.2, 1),
+              border-color 0.2s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-4px) translateZ(0);
+  box-shadow: 0 8px 32px rgba(54, 113, 198, 0.3);
+}
+
+.team-card.selected {
+  transform: translateY(-2px) translateZ(0);
+  box-shadow: 0 4px 24px rgba(59, 130, 246, 0.4);
+}
+
+/* Optimized shimmer effect for team cards */
+.team-card-shimmer {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  transition: left 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  will-change: left;
+  transform: translateZ(0);
+}
+
+.team-card:hover .team-card-shimmer {
+  left: 100%;
+}
+
+/* Futuristic Glow Effects */
+.glow {
+  box-shadow: 0 0 20px rgba(54, 113, 198, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px rgba(220, 20, 60, 0.3);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(0, 210, 190, 0.3);
+}
+
+.glow-pulse {
+  animation: glowPulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes glowPulse {
+  from {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+  }
+  to {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.6);
+  }
+}
+
+/* Glass Morphism */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Racing Grid Lines */
+.racing-grid {
+  background-image: 
+    linear-gradient(90deg, rgba(54, 113, 198, 0.1) 1px, transparent 1px),
+    linear-gradient(rgba(54, 113, 198, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Team Color Classes */
+.team-red-bull { color: var(--red-bull); }
+.team-mercedes { color: var(--mercedes); }
+.team-ferrari { color: var(--ferrari); }
+.team-mclaren { color: var(--mclaren); }
+.team-aston-martin { color: var(--aston-martin); }
+.team-alpine { color: var(--alpine); }
+.team-williams { color: var(--williams); }
+.team-rb { color: var(--rb); }
+.team-haas { color: var(--haas); }
+.team-kick-sauber { color: var(--kick-sauber); }
+
+.bg-team-red-bull { background-color: var(--red-bull); }
+.bg-team-mercedes { background-color: var(--mercedes); }
+.bg-team-ferrari { background-color: var(--ferrari); }
+.bg-team-mclaren { background-color: var(--mclaren); }
+.bg-team-aston-martin { background-color: var(--aston-martin); }
+.bg-team-alpine { background-color: var(--alpine); }
+.bg-team-williams { background-color: var(--williams); }
+.bg-team-rb { background-color: var(--rb); }
+.bg-team-haas { background-color: var(--haas); color: #000; }
+.bg-team-kick-sauber { background-color: var(--kick-sauber); }
+
+/* Animation Classes */
+.animate-pulse-slow {
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Futuristic Button Styles */
+.btn-futuristic {
+  background: linear-gradient(45deg, #3671C6, #00D2BE);
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  will-change: transform, box-shadow;
+  transform: translateZ(0);
+}
+
+.btn-futuristic::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+  will-change: left;
+}
+
+.btn-futuristic:hover::before {
+  left: 100%;
+}
+
+.btn-futuristic:hover {
+  transform: translateY(-2px) translateZ(0);
+  box-shadow: 0 10px 30px rgba(54, 113, 198, 0.4);
+}
+
+.btn-futuristic:active {
+  transform: translateY(0) translateZ(0);
+  box-shadow: 0 5px 15px rgba(54, 113, 198, 0.3);
+}
+
+.btn-futuristic:disabled {
+  opacity: 0.6;
+  transform: none;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+/* Racing Typography */
+.font-racing {
+  font-family: 'Orbitron', monospace;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.font-display {
+  font-family: 'Orbitron', monospace;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Grid Layout Helpers */
+.grid-fit {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Racing Stripes */
+.racing-stripes {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(54, 113, 198, 0.1),
+    rgba(54, 113, 198, 0.1) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+/* Star Rating Optimizations */
+.star-rating {
+  display: flex;
+  gap: 2px;
+}
+
+.star-rating .star {
+  transition: color 0.15s ease, fill 0.15s ease;
+  will-change: color;
+}
+
+/* Team selection specific optimizations */
+.team-selection-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+@media (min-width: 768px) {
+  .team-selection-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-selection-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .team-selection-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Confirmation panel optimizations */
+.confirmation-panel {
+  backdrop-filter: blur(20px);
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* Mobile Responsive Helpers */
+@media (max-width: 768px) {
+  .grid-fit {
+    grid-template-columns: 1fr;
+  }
+  
+  .team-selection-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .team-card {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-2px) translateZ(0);
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .team-card,
+  .btn-futuristic,
+  .team-card-shimmer,
+  .star {
+    transition: none !important;
+    animation: none !important;
+  }
+  
+  .team-card:hover {
+    transform: none;
+  }
+}
